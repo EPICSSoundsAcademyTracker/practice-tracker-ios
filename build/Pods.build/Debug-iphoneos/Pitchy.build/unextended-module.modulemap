@@ -1,0 +1,10 @@
+framework module Pitchy {
+  umbrella header "Pitchy-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Pitchy.__Swift {
+    exclude header "Pitchy-Swift.h"
+}
