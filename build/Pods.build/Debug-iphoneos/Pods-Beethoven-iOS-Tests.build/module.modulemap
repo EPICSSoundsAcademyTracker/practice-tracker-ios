@@ -1,0 +1,6 @@
+framework module Pods_Beethoven_iOS_Tests {
+  umbrella header "Pods-Beethoven-iOS-Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
